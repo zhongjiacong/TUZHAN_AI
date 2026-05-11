@@ -8,6 +8,26 @@ Root PRD: [`workspace_human/prd/PRD-0001_conference_playbook_for_using_ai_at_wor
 
 ---
 
+## v2026.05.11 — 2026-05-11
+
+日常维护：为 TUVE 产品目录添加品牌标识，整理仓库根目录的孤立工具脚本。
+
+### What changes
+
+- **`products/tuve/logos/`** —— 新增品牌标识目录，收录 3 份 TUVE logo：
+  - `tuve_logo.svg`（SVG 矢量，320×160 viewBox）—— 网页 / 应用内嵌 / 任意缩放
+  - `tuve_logo_800x800.png`（PNG RGBA，800×800）—— 网页嵌入 / PPT / 缩略图
+  - `tuve_logo_full.png`（PNG RGBA，4096×4096）—— 印刷 / 高清展示 / 导出
+- **`products/tuve/README.md`** —— 顶部嵌入 SVG logo 预览；新增"品牌标识 / Brand assets"章节，以表格列出三个文件及其格式、尺寸、推荐用途
+- **`workflows/engineering/scripts/trash_rm.zsh`** —— 创建 `trash_rm.zsh`（防误删工具，覆盖 `rm` 为移到废纸篓）放置在 `workflows/engineering/scripts/` 下，归属工程安全工具范畴
+
+### Red-line audit
+
+- ✅ 红线 #7：无新文件超过 800 行
+- ✅ 红线 #9：命名永久化，logo 文件名无日期后缀
+- ✅ 红线 #12：`workspace_human/` 未修改
+
+---
 ## v2026.05.10d — 2026-05-10 (PRD-0003)
 
 按 [PRD-0003](workspace_human/prd/PRD-0003_daily_handoff_zone.md) 加日常工作传递区 [`handoffs/`](handoffs/)（inbox + outbox），承载"同事每日交过来 / 我每日交出去"的轻量临时文档。

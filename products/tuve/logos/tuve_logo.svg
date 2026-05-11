@@ -1,0 +1,14 @@
+<svg viewBox="0 0 320 160" class="w-full h-full p-0.5" xmlns="http://www.w3.org/2000/svg" aria-label="TUVE Logo"> 
+    <!-- T (矩形) --> 
+    <rect x="12" y="40" width="62" height="20" fill="#4B4B4B"></rect> 
+    <rect x="39" y="60" width="8" height="60" fill="#4B4B4B"></rect> 
+    <!-- U (由上方矩形和下方半圆组成的实心图形) --> 
+    <path d="M 92 40 L 92 90 A 20 20 0 0 0 152 90 L 152 40 Z" fill="#FF6B01"></path> 
+    <!-- V (三角形) --> 
+    <polygon points="166,40 234,40 200,120" fill="#4B4B4B"></polygon> 
+    <!-- E (矩形) --> 
+    <rect x="250" y="40" width="20" height="80" fill="#FF6B01"></rect> 
+    <rect x="250" y="40" width="58" height="20" fill="#FF6B01"></rect> 
+    <rect x="250" y="70" width="52" height="20" fill="#FF6B01"></rect> 
+    <rect x="250" y="100" width="58" height="20" fill="#FF6B01"></rect> 
+</svg>

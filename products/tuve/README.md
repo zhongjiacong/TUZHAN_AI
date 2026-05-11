@@ -6,6 +6,8 @@ retention: permanent
 retention_reason: TUVE 对外材料的入口；销售/客服/合作伙伴/新人最先看到的页面 / Entry page for TUVE external materials
 ---
 
+![TUVE Logo](logos/tuve_logo.svg)
+
 # TUVE · 一页速览 / 1-page overview
 
 > 看完这一页可以完成 / After this page you can:
@@ -58,6 +60,15 @@ If you want to build a similar workflow yourself with SEE2AI Actions: see [`../s
 
 ---
 
+## 品牌标识 / Brand assets
+
+| 文件 / File | 格式 / Format | 尺寸 / Dimensions | 用途 / Use |
+|---|---|---|---|
+| [`logos/tuve_logo.svg`](logos/tuve_logo.svg) | SVG 矢量 / Vector | 320×160 viewBox | 网页 / 应用内嵌 / 任意缩放 / Web, app inline, scalable |
+| [`logos/tuve_logo_full.png`](logos/tuve_logo_full.png) | PNG RGBA | 4096×4096 | 印刷 / 高清展示 / 导出场景 / Print, hi-res display, export |
+| [`logos/tuve_logo_800x800.png`](logos/tuve_logo_800x800.png) | PNG RGBA | 800×800 | 网页嵌入 / PPT / 缩略图 / Web embed, slides, thumbnails |
+
+---
 ## 这一目录的详细材料 / Detail files in this folder
 
 | 文件 / File | 内容 / Content |

@@ -10,8 +10,8 @@ retention_reason: 全员日常每次任务都用得上，最高频引用 / Every
 
 ## 一句话 / One Line
 
-**把 AI 当成一位刚入职的、聪明但缺背景的同事**——不是搜索引擎，不是替你做决定的老板，也不是会自动产出完美结果的咒语。
-**Treat AI like a smart new hire who lacks context** — not a search engine, not a boss who decides for you, not an incantation that produces perfect output.
+**把 AI 当成一位聪明但缺少项目背景的协作者**——不是搜索引擎，不是替你做决定的老板，也不是会自动产出完美结果的咒语。
+**Treat AI like a smart collaborator who lacks context** — not a search engine, not a boss who decides for you, not an incantation that produces perfect output.
 
 ---
 
@@ -77,7 +77,7 @@ This is Red Line #8. AI **must** get human confirmation before:
 | 付费 API / Paid API | 单次调用 > 0.1 USD（避免账单意外）/ Single call > 0.1 USD (avoid bill surprises) |
 
 **人说一次"以后这类不用问"对当前会话有效**，跨会话**一律重新确认**。理由：会话之间状态可能变（客户关系变了、上下游约定变了、人变了）。
-**A "don't ask me again" is valid for the current session only**; across sessions, **re-confirm**. Reason: state may have changed (customer relationship, upstream/downstream agreement, personnel).
+**A "don't ask me again" is valid for the current session only**; across sessions, **re-confirm**. Reason: state may have changed (customer relationship, upstream/downstream agreement, access scope).
 
 ---
 

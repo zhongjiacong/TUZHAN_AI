@@ -14,7 +14,7 @@ retention_reason: 合规底线，违反将触发法律 + 客户信任双重风�
 |---|---|---|
 | **公开 / Public** | 营销文案、产品介绍、公开新闻、公开数据集 / Marketing copy, product intro, public news, open datasets | ✅ 直接用 / Yes, directly |
 | **内部 / Internal** | 内部流程、自家代码、自家产品文档、自家 OKR / Internal processes, our code, our product docs, our OKRs | ⚠️ 用公司付费的 AI 工具可以；个人账号 / 公开网页版禁止 / OK on company-paid AI; banned on personal accounts / public web UIs |
-| **机密 / Confidential** | 客户数据、合同条款、销售管线、薪酬、个人身份信息（PII）/ Customer data, contract terms, sales pipeline, comp, PII | 🚫 必须脱敏后才能给 AI / Must be redacted before AI sees |
+| **机密 / Confidential** | 客户数据、合同条款、销售管线、个人身份信息（PII）/ Customer data, contract terms, sales pipeline, PII | 🚫 必须脱敏后才能给 AI / Must be redacted before AI sees |
 
 ---
 
@@ -58,9 +58,9 @@ Absolute do-not-send:
 如果业务真的需要 AI 处理涉及 PII 的工作，**只有在公司专设的、合规审过的、签了 DPA 的 AI 服务**上才允许，且必须按 [`runbooks/`](../../runbooks/) 里的 PII 处理流程走。
 If the business genuinely needs AI to process PII-adjacent work, it's **only allowed on a company-designated, compliance-reviewed, DPA-signed AI service**, and must follow the PII handling runbook in [`runbooks/`](../../runbooks/).
 
-### 4. 内部财务 / 薪酬 / Internal Finances and Comp
+### 4. 内部财务 / Internal Finances
 
-- 公司财务报表、薪资结构、股权信息 → 严禁送 AI / Strictly off-AI
+- 公司财务报表、股权信息 → 严禁送 AI / Strictly off-AI
 - 部门预算 / 项目成本预估 → 内部 AI 工具上 OK，个人账号禁止 / OK on internal AI, banned on personal accounts
 
 ---

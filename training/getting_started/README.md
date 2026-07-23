@@ -39,7 +39,7 @@
 
 | 我是 / Role | 去这份 / Read |
 |---|---|
-| 跨职能 / 不确定 / 实习生 / 新行业转入 | [`for_cross_functional.md`](for_cross_functional.md) |
+| 跨职能 / 不确定 / 新手 / 新行业转入 | [`for_cross_functional.md`](for_cross_functional.md) |
 
 ---
 

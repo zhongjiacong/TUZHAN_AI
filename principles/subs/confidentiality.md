@@ -27,7 +27,6 @@ Detailed SOP in [`data_and_privacy.md`](data_and_privacy.md). This file focuses 
 - **客户的所有数据**（包括客户的内容素材、客户的客户、客户的销售记录）/ All customer data (their content, their customers, their sales records)
 - **合同条款原文**（金额、期限、独家条款、违约条款）/ Verbatim contract clauses (amounts, terms, exclusivity, penalties)
 - **销售管线**（客户名 + 阶段 + 预期金额）/ Sales pipeline (customer + stage + expected amount)
-- **薪酬信息**（具体数字、个人薪资、股权信息）/ Comp (specific numbers, individual salary, equity)
 - **未发布的 product roadmap**（哪个功能何时发）/ Unreleased product roadmap (when which feature ships)
 - **PII**：身份证、护照、银行卡、真实手机/邮箱、家庭地址 / PII
 - **内部代号 / 项目代号**（违反红线 #2）/ Internal codenames (Red Line #2)
@@ -160,7 +159,7 @@ Not "confidentiality kicks in when something happens", but **confidentiality is 
 - 在公共场合（咖啡馆、机场）不和同事讨论客户名 / 合同金额 / In public (cafés, airports), don't discuss customer names / amounts with colleagues
 - 离开座位锁屏 / Lock screen when leaving desk
 - 不在不应该的场合（非工作 IM、个人邮箱）转发工作内容 / Don't forward work content via personal IM / email
-- 离职时按交接清单**清晰**移交，不带走任何客户数据 / On departure, hand over clearly per checklist; don't take any customer data
+- 结束项目访问时按清单**清晰**移交，并撤销不再需要的客户数据访问 / When project access ends, hand over clearly and revoke access that is no longer needed
 
 这些看似琐碎的小事，是保密文化的真实样子。
 These mundane habits are what real confidentiality culture looks like.

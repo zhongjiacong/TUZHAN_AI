@@ -61,7 +61,7 @@ retention_reason: 定义全公司"日常工作交接"的根目录与纪律；任
 
 handoffs/ 是**轻量交接**，**不是**：
 - 项目级接力棒（一个项目交给下一棒）→ 走对应项目目录
-- 岗位级离职交接（人员变动时打包未完成事项）→ 走专门的离职/调岗流程（未来另立 PRD）
+- 长期运营权移交（集中打包未完成事项）→ 走专门流程（未来另立 PRD）
 - 对客户的合同 / 报价 / 法务回执 → 走签批流程（不进 git）
 - 客户电话纪要的结构化版本 → 仍走 [`workspace_human/meetings/customer_followups/`](../meetings/customer_followups/)
 - 长期复用的操作手册 → 走 [`runbooks/`](../../runbooks/)
@@ -104,7 +104,7 @@ handoffs/ 是**轻量交接**，**不是**：
 ### 非目标 / Non-Goals
 
 - ❌ **NG1 · 项目级交接**：项目接力棒（一个项目交给下一棒）**不进**本目录，走项目目录（[`projects/`](../../projects/)）+ 对应 PRD
-- ❌ **NG2 · 岗位级交接**：人员变动（离职 / 调岗 / 接班）的工作打包**不进**本目录，未来另起 `PRD-XXXX_role_transition` 处理
+- ❌ **NG2 · 长期运营权移交**：集中工作打包**不进**本目录，未来另起专门 PRD 处理
 - ❌ **NG3 · 客户合同 / 法务 / 财务**：合同、报价、回执、签字材料**不进**本目录、**不进** git，走签批流程
 - ❌ **NG4 · 创建新模板**：不新建 templates/handoff_xxx/ 这类目录；现有 templates/ 已经覆盖大多数成品形态，缺什么是另一份 template-PRD 的事
 - ❌ **NG5 · 替代客户电话纪要**：[`workspace_human/meetings/customer_followups/`](../meetings/customer_followups/) 继续是客户电话纪要的家，handoffs/ 不重叠
@@ -121,7 +121,7 @@ handoffs/ 是**轻量交接**，**不是**：
 - **故事 1**：作为**销售**，我上午客户群发我一段需求描述（含客户公司名 + 联系人手机号），下午要给运营做参考。我希望先把原始截图扔进 [`handoffs/inbox/_raw/`](../../handoffs/inbox/_raw/)（不会被 commit），自己脱敏后产出 [`handoffs/inbox/2026-05-10_sales-to-ops_customer-needs.md`](../../handoffs/inbox/) 给运营，以便**敏感信息不进 git** + **运营在 AI 协助下能立刻接力**。
 - **故事 2**：作为**运营**，我星期一要给视频组写一份"本周拍摄重点"，是临时性、非合同、不值得开 PRD 的小东西。我希望写到 [`handoffs/outbox/2026-05-10_ops-to-video_weekly-shoot-brief.md`](../../handoffs/outbox/)，以便**视频组同事自己 / 自己的 AI 都能读到** + **2 周后我自己回来还能找到**。
 - **故事 3**：作为**算法工程师**，我做完一份 A/B 实验初步分析，要交给产品决定下一步。我希望它落进 [`handoffs/outbox/`](../../handoffs/outbox/)（产品看完决定下一步后挪走或归档），以便**不污染 [`workspace_human/`](../)**（红线 #12）+ **AI 协助产品同事时能直接读到**。
-- **故事 4**：作为**新入职跨职能同事**，我做完第一份小东西不知道放哪、也不知道我同事给我的东西该放哪。我希望打开仓库就能在 AI_MANUAL §4 任务-入口表里找到"日常给同事 / 收到同事 → handoffs/"，以便**第一天就走对路径**。
+- **故事 4**：作为**首次参与的跨职能协作者**，我做完第一份小东西不知道放哪、也不知道协作者给我的东西该放哪。我希望打开仓库就能在 AI_MANUAL §4 任务-入口表里找到"日常交接 → handoffs/"，以便**第一次就走对路径**。
 - **故事 5**：作为**产品负责人（季度反熵）**，我希望每次 weekly review 自动有一项"扫一遍 [`handoffs/`](../../handoffs/) 30 天未动的"，以便**inbox/outbox 不会变成永久垃圾堆**。
 - **故事 6**：作为**AI 助手**（Claude Code / Cursor / Codex / Trae），我希望在 4 个入口文件里就被告知 handoffs/ 的语义（**outbox 我可写，inbox 顶层我可写但 _raw/ 我不写**），以便**协助用户起草日常交接物时不犯错路**。
 

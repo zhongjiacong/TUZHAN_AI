@@ -151,7 +151,7 @@ Why old ADRs aren't deleted: future readers need the **lineage**, not just the l
 | 决定**所有**视频统一改成 60 秒上限 / Decide **all** videos shall be ≤60s going forward | ✅ 落 ADR / Yes |
 | 决定 Bug 这周不修，先排到下周 / Decide a bug doesn't get fixed this week | ❌ 不必（[`issues/known.md`](../../issues/known.md) 里登记就够）/ No (issues/known.md suffices) |
 | 决定不修这一类 Bug（永久作为 wontfix 处理）/ Decide a class of bugs is permanently won't-fix | ✅ 落 ADR / Yes |
-| 决定面试时多加一个轮次 / Decide to add an interview round | ⚠️ 看影响范围 / Depends on scope |
+| 决定项目审批多加一个轮次 / Decide to add a project approval round | ⚠️ 看影响范围 / Depends on scope |
 | 决定改公司 OKR 的某条 / Decide to amend a company OKR | ✅ 落 ADR / Yes |
 
 口诀：**会变成"一类事的处理范式"的，落字；只解决"这一次"的，不必。**

@@ -9,7 +9,7 @@
 | ✅ 这里放 | ❌ 这里不放 → 去哪 |
 |---|---|
 | 销售当天给运营的客户需求要点 | 项目级接力（接力棒）→ [`projects/`](../projects/) + 对应 PRD |
-| 运营给视频组的本周拍摄要点 | 岗位交接（离职 / 调岗）→ 走专门流程（未来 PRD） |
+| 运营给视频组的本周拍摄要点 | 长期运营权移交 → 走专门流程（未来 PRD） |
 | 算法给产品的 A/B 实验初步分析 | 客户合同 / 报价 / 法务回执 → 走签批流程，**不进 git** |
 | 某个临时小任务的中间产物 | 客户电话**纪要** → [`workspace_human/meetings/customer_followups/`](../workspace_human/meetings/customer_followups/) |
 | 不值得开 PRD、但要让同事看到的东西 | 长期复用资料 → [`runbooks/`](../runbooks/) / [`templates/`](../templates/) / [`training/`](../training/) |

@@ -113,7 +113,6 @@ Don't calculate "the gap we want users to feel" — calculate "the gap we actual
 
 **不算入成本差的**：
 **Not counted as cost differential**:
-- 团队工资（除非是付费档专属人工服务）/ Team salary (unless paid-tier-exclusive human services)
 - 营销成本 / Marketing cost
 - "稀缺性"（稀缺不是成本，是营销策略）/ "Scarcity" (not a cost, just marketing tactic)
 

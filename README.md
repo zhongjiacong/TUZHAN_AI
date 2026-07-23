@@ -115,8 +115,8 @@ TUZHAN_AI/
 
 ## 这个仓库背后的几条核心信念 / The Beliefs Behind This Repo
 
-1. **AI 是有能力的同事，不是搜索引擎。** 你怎么对待一位刚入职但很聪明的同事——给他背景、给他目标、让他读相关材料、有疑问就问——AI 也一样。
-   **AI is a capable colleague, not a search engine.** Treat it like a smart new hire: give context, give goals, point at relevant material, expect it to ask back when unsure.
+1. **AI 是有能力的协作者，不是搜索引擎。** 面对一个聪明但缺少项目背景的协作者——给背景、给目标、让其读相关材料、有疑问就问——AI 也一样。
+   **AI is a capable collaborator, not a search engine.** Give it context, goals, and relevant material, and expect it to ask back when unsure.
 
 2. **流程比聪明更重要。** 一个普通方案 + 严密流程 > 一个绝妙点子 + 凭直觉操作。这个仓库里的红线、模板、工作流就是把"严密流程"做成了肌肉记忆。
    **Process beats brilliance.** A solid solution executed against a tight process > a brilliant idea executed by intuition. The red lines, templates, and workflows here turn the tight process into muscle memory.

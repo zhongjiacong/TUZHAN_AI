@@ -7,8 +7,8 @@
 
 ## 一句话 / One Line
 
-把 AI 当成一位刚入职 3 天的、聪明的、缺背景的同事。你给同事的任务怎么交代清楚，给 AI 就怎么交代清楚。
-Treat AI like a smart colleague who started 3 days ago and lacks context. Brief AI exactly like you'd brief that colleague.
+把 AI 当成一位聪明但缺少项目背景的协作者。任务怎样交代清楚，给 AI 就怎样交代清楚。
+Treat AI like a smart collaborator that lacks context. Brief AI with the same clarity you would use for any collaborator.
 
 ---
 

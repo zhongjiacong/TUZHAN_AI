@@ -17,7 +17,7 @@ retention_reason: 全公司日常岗位间轻量传递工作流，长期复用 /
 
 1. **轻量吗？** 这件事不需要开 PRD、不需要立项、不需要走签批
 2. **临时吗？** 预期 30 天内会被消化掉（要么处理完归档，要么对方接手后这份就过时）
-3. **岗位间吗？** 是同事 → 同事，不是岗位级离职交接、不是对客户的合同 / 报价 / 回执
+3. **轻交付吗？** 是短期协作传递，不是长期运营权移交、也不是对客户的合同 / 报价 / 回执
 
 任一 no → 走对应正规流程：
 
@@ -25,7 +25,7 @@ retention_reason: 全公司日常岗位间轻量传递工作流，长期复用 /
 |---|
 | 不轻量（要立项）→ [`workspace_human/prd/`](../../workspace_human/prd/) 起 PRD |
 | 不临时（要长期）→ [`runbooks/`](../../runbooks/) / [`templates/`](../../templates/) / [`case_studies/`](../../case_studies/) |
-| 岗位级交接（人员变动）→ 专门的离职 / 调岗流程（未来 PRD） |
+| 长期运营权移交 → 专门流程（未来 PRD） |
 | 对客户合同 / 法务 → 签批流程（**不进 git**） |
 | 客户电话纪要 → [`workspace_human/meetings/customer_followups/`](../../workspace_human/meetings/customer_followups/) |
 | Bug / 问题 → [`issues/known.md`](../../issues/known.md)（红线 #4 SSOT）|

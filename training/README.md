@@ -18,8 +18,8 @@
 
 ## 为什么把培训材料放进仓库 / Why Training Materials Are in This Repo
 
-让没参加培训的同事 / 之后入职的同事 / 想复习的同事**都能找到**。
-So attendees who forget, people who couldn't attend, and future hires can all find this.
+让没参加培训的参与者 / 之后首次使用的参与者 / 想复习的参与者**都能找到**。
+So attendees who forget, people who couldn't attend, and future users can all find this.
 
 **这不是要给参会者看的"演示版本"——这就是真实培训材料的一份归档。**
 **This is not a "demo version" for attendees — this IS the archived training material.**
